@@ -8,11 +8,10 @@ A simple and clean CSV to JSON converter built with TypeScript, demonstrating ba
 - **TypeScript**: Full type safety with modern ES2020 features
 - **Design Patterns**: Strategy, Factory, Repository, and MVC patterns
 - **PostgreSQL Integration**: Basic database operations with connection pooling
-- **Age Analysis**: Simple age distribution calculation and statistics
+- **Age Analysis**: Simple age distribution calculation
 - **Clean Architecture**: Separation of concerns with dedicated services
 - **Minimal REST API**: Express.js server with CSV upload and data retrieval
-- **CLI Support**: Command-line interface for batch processing
-
+- **CLI Support**: Command-line interface
 ## 📋 Prerequisites
 
 - Node.js 18+
@@ -233,7 +232,6 @@ interface DatabaseConfig {
 ### 2. Basic Age Analysis
 
 - Age distribution calculation in predefined ranges
-- Simple statistical analysis (min, max, average, median)
 
 ### 3. Database Operations
 
@@ -276,17 +274,6 @@ interface DatabaseConfig {
 - Memory-conscious data processing
 - Temporary file cleanup for API uploads
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Ensure code quality with linting
-5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the ISC License.
 
 ## 🔮 Future Enhancements
 
@@ -294,3 +281,4 @@ This project is licensed under the ISC License.
 - **Rate Limiting** - API rate limiting and throttling
 - **Additional Endpoints** - More data retrieval options
 - **Data Export** - Export processed data in various formats
+
