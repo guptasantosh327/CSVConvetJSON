@@ -66,18 +66,13 @@ Your CSV to JSON converter now has only **2 API endpoints** for testing with Pos
 npm run api
 ```
 
-### **Step 2: Test Root Endpoint**
-
-- **GET** `http://localhost:3000/`
-- Should return API documentation with usage instructions
-
-### **Step 3: Upload CSV File**
+### **Step 2: Upload CSV File**
 
 - **POST** `http://localhost:3000/api/upload-csv`
 - Use form-data with `csvFile` key (exact field name)
 - Upload your CSV file
 
-### **Step 4: Retrieve Users**
+### **Step 3: Retrieve Users**
 
 - **GET** `http://localhost:3000/api/users`
 - Should return all processed users
